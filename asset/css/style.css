@@ -197,6 +197,7 @@ li {
 .text-description {
   font-size: 15px;
   margin-top: 25px;
+  text-shadow: 0 0 4px #000;
 }
 
 /* content */
@@ -531,7 +532,7 @@ li {
 
 
 
-@media (max-width: 740px) {
+@media (max-width: 739px) {
 
   /* mobile */
 
@@ -584,6 +585,10 @@ li {
     padding:  5px 41px;
   }
 
+  .text-content {
+    display: none !important;
+  }
+  
   #content .member-mobile {
     width: 100%;
   }
